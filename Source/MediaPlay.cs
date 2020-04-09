@@ -1,4 +1,4 @@
-namespace EdgeUn
+namespace SkyEdge
 {
     public class MediaPlay
     {
