@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SkyEdge")]
-[assembly: AssemblyDescription("The edge device platform")]
+[assembly: AssemblyDescription("Open platform for edge devices")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SkyEdge")]
