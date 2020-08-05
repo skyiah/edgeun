@@ -1,4 +1,4 @@
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// The enumeration of JSON member types.

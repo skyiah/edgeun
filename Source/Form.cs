@@ -1,7 +1,7 @@
 using System;
 
 // ReSharper disable once CheckNamespace
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// A form object model parsed from either x-www-form-urlencoded or multipart/form-data.

@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// An XML element.

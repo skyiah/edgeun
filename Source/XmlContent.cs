@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// To generate a UTF-8 encoded XML document. 

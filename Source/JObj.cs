@@ -1,6 +1,6 @@
 using System;
 
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// A JSON object model.

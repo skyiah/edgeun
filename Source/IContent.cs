@@ -1,4 +1,4 @@
-﻿namespace SkyEdge
+﻿namespace Skyiah.Way
 {
     /// <summary>
     /// Represents a binary content ready to send through web context. 

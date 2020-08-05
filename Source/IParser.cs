@@ -1,4 +1,4 @@
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// A data structure that is parser for a certain content format.

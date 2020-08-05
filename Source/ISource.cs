@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// Represents a provider or input source of dataset, a data object, or some of its data fields.

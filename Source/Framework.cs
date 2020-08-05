@@ -1,4 +1,4 @@
-namespace SkyEdge
+namespace Skyiah.Way
 {
     public static class Framework
     {

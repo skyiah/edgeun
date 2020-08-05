@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// A set of commonly-used array operations.

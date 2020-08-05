@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// To indicate that a content parsing-related exception occured.

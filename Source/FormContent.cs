@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// To generate a urlencoded byte or char string.

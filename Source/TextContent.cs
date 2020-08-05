@@ -1,4 +1,4 @@
-namespace SkyEdge
+namespace Skyiah.Way
 {
     /// <summary>
     /// To generate a plain/text string or CSV content. 
