@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Skyiah.Way
+namespace Skyiah
 {
     public class DeviceHub
     {

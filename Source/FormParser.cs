@@ -1,4 +1,4 @@
-namespace Skyiah.Way
+namespace Skyiah
 {
     /// <summary>
     /// To parse application/x-www-form-urlencoded octets or a character string.

@@ -2,7 +2,7 @@
 using System.Collections.Concurrent;
 using static System.Environment;
 
-namespace Skyiah.Way
+namespace Skyiah
 {
     /// <summary>
     /// A global byte buffer pool.

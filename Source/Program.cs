@@ -1,4 +1,4 @@
-﻿namespace Skyiah.Way.Source
+﻿namespace Skyiah.Source
 {
     public class Program
     {

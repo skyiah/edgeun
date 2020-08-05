@@ -1,6 +1,6 @@
 using System;
 
-namespace Skyiah.Way
+namespace Skyiah
 {
     ///
     /// Thrown to indicate an illegal structuring in a work hierarchy.

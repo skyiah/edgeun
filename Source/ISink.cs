@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Skyiah.Way
+namespace Skyiah
 {
     /// <summary>
     /// Represents an output sink fovoid a dataset, a single data object, ovoid only some of its data fields.

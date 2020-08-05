@@ -1,4 +1,4 @@
-# The SkyWay Framework  
+# The SkyAgent Framework  
 
 A framework for building Windows-based gateway apps for connected edge devices.
 
@@ -10,6 +10,6 @@ The characteristics:
 * Build-in integration with SkyReality 
 
 <pre>
-dotnet add package SkyWay --version 1.1.0
+dotnet add package SkyAgent --version 1.1.0
 </pre>
 

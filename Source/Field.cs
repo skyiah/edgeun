@@ -1,6 +1,6 @@
 using System;
 
-namespace Skyiah.Way
+namespace Skyiah
 {
     /// <summary>
     /// A field in a form model.

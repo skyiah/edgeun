@@ -1,4 +1,4 @@
-namespace Skyiah.Way
+namespace Skyiah
 {
     /// <summary>
     /// An object with an key name so that can be a map element.

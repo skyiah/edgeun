@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace Skyiah.Way
+namespace Skyiah
 {
     public static class TextUtility
     {

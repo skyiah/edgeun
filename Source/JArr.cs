@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace Skyiah.Way
+namespace Skyiah
 {
     /// <summary>
     /// A JSON array model.

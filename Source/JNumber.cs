@@ -1,4 +1,4 @@
-namespace Skyiah.Way
+namespace Skyiah
 {
     ///
     /// Used to build a number during a parsing process.

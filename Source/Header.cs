@@ -1,4 +1,4 @@
-namespace Skyiah.Way
+namespace Skyiah
 {
     /// <summary>
     /// To analyze HTTP header.

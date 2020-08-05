@@ -1,4 +1,4 @@
-namespace Skyiah.Way
+namespace Skyiah
 {
     /// <summary>
     /// The enumeration of JSON member types.
