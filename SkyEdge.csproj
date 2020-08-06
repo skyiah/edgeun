@@ -4,11 +4,10 @@
         <OutputType>WinExe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <UseWPF>true</UseWPF>
-        <RootNamespace>SkyWay</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Source\Agent" />
+      <Folder Include="Source\Edge" />
     </ItemGroup>
 
 </Project>
