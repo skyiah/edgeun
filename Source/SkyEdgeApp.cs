@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Windows;
+using System.Windows.Controls;
+using Microsoft.Web.WebView2.Wpf;
+
 
 namespace SkyEdge.Source
 {
@@ -12,6 +15,12 @@ namespace SkyEdge.Source
             Height = 100;
             Title = "My Simple Window";
             Content = "Hi There!";
+
+            DockPanel v;
+            Content = v = new DockPanel();
+            WebView2 wv = new WebView2();
+            DockPanel.SetDock(wv, Dock.Bottom);
+            v.Children.Add(wv);
         }
     }
 

@@ -1,6 +1,6 @@
 # The SkyEdge Framework  
 
-A framework for building Windows-based gateway apps for connected edge devices.
+A graphical Windows app & framework that lets web pages to directly use functionalities of various edge-side devices.
 
 The characteristics:
 
@@ -8,7 +8,7 @@ The characteristics:
 * Support serial port and I2C
 * Plug-in auto-updateable application code
 * Built-in device management.
-* Build-in integration with SkyReality 
+* Build-in integration with SkyChain 
 
 <pre>
 dotnet add package SkyEdge --version 1.1.0

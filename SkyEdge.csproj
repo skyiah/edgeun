@@ -10,4 +10,8 @@
       <Folder Include="Source\Edge" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Web.WebView2" Version="0.9.579-prerelease" />
+    </ItemGroup>
+
 </Project>
