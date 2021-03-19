@@ -1,4 +1,4 @@
-namespace Skyiah
+namespace SkyEdge
 {
     ///
     /// Used to build a number during a parsing process.

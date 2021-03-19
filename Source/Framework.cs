@@ -1,4 +1,4 @@
-namespace Skyiah
+namespace SkyEdge
 {
     public static class Framework
     {

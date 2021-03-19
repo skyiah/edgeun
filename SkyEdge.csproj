@@ -7,11 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Source\Edge" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Microsoft.Web.WebView2" Version="0.9.579-prerelease" />
+      <PackageReference Include="Iot.Device.Bindings" Version="1.4.0" />
+      <PackageReference Include="Microsoft.ML" Version="1.5.5" />
+      <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.790-prerelease" />
+      <PackageReference Include="System.Device.Gpio" Version="1.4.0" />
     </ItemGroup>
 
 </Project>

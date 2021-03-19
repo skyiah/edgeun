@@ -1,6 +1,6 @@
 using System;
 
-namespace Skyiah
+namespace SkyEdge
 {
     /// <summary>
     /// A field in a form model.

@@ -1,26 +1,59 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
+using Microsoft.Web.WebView2.Core;
 using Microsoft.Web.WebView2.Wpf;
-
 
 namespace SkyEdge.Source
 {
-    class MyWindow : Window
+    public class MyWindow : Window
     {
+        readonly WebView2 wv;
+
         public MyWindow()
         {
             // Constructor
-            Width = 300;
-            Height = 100;
+            Width = 800;
+            Height = 480;
             Title = "My Simple Window";
-            Content = "Hi There!";
 
-            DockPanel v;
-            Content = v = new DockPanel();
-            WebView2 wv = new WebView2();
-            DockPanel.SetDock(wv, Dock.Bottom);
-            v.Children.Add(wv);
+            DockPanel panel;
+            Content = panel = new DockPanel()
+            {
+                LastChildFill = true
+            };
+            panel.Background = new LinearGradientBrush();
+            wv = new WebView2();
+            wv.BeginInit();
+            wv.EndInit();
+
+            var btn = new Button() {Name = "ABC"};
+            btn.Click += Init;
+            panel.Children.Add(btn);
+            panel.Children.Add(wv);
+            
+        }
+
+        async void InitializeAsync()
+        {
+            await wv.EnsureCoreWebView2Async(null);
+            // wv.CoreWebView2.WebMessageReceived += UpdateAddressBar;
+        }
+
+        void UpdateAddressBar(object sender, CoreWebView2WebMessageReceivedEventArgs args)
+        {
+            String uri = args.TryGetWebMessageAsString();
+            // addressBar.Text = uri;
+            // webView.CoreWebView2.PostWebMessageAsString(uri);
+        }
+
+        public async void Init(object o, RoutedEventArgs arts)
+        {
+            await wv.EnsureCoreWebView2Async();
+
+            wv.Source = new Uri("http://jx.skyiah.com/admly/");
         }
     }
 
@@ -29,12 +62,17 @@ namespace SkyEdge.Source
         [STAThread]
         static void Main(string[] args)
         {
-            Window myWin = new MyWindow(); // Create the Window object.
+            MyWindow win = new MyWindow
+            {
+                WindowStyle = WindowStyle.ThreeDBorderWindow
+            };
+
             // ToolWindow does not have any max or min buttons.
-            myWin.WindowStyle = WindowStyle.ToolWindow;
-            myWin.Content += "\nHow are you?"; // add more content
-            myWin.Show();
-            SkyEdgeApp myApp = new SkyEdgeApp(); // Create an Application object.
+            win.Show();
+
+            // win.Init(null, null);
+
+            var myApp = new SkyEdgeApp(); // Create an Application object.
             myApp.Run(); // Start application running.
         }
     }

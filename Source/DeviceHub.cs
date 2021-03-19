@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Skyiah
+namespace SkyEdge
 {
     public class DeviceHub
     {

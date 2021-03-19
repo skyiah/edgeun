@@ -1,4 +1,4 @@
-namespace Skyiah
+namespace SkyEdge
 {
     /// <summary>
     /// A data structure that is parser for a certain content format.

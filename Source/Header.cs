@@ -1,4 +1,4 @@
-namespace Skyiah
+namespace SkyEdge
 {
     /// <summary>
     /// To analyze HTTP header.

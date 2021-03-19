@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace Skyiah
+namespace SkyEdge
 {
     public static class TextUtility
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 
-namespace Skyiah
+namespace SkyEdge
 {
     public static class DataUtility
     {

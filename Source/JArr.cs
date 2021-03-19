@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace Skyiah
+namespace SkyEdge
 {
     /// <summary>
     /// A JSON array model.
